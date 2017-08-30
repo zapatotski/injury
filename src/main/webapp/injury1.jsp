@@ -264,7 +264,7 @@ setInterval(function(){
 		</div>
 		<nav class="navbar navbar-default">
 			<ul class="nav navbar-nav">
-		        <li><a href="/index.jsp">Сегодня</a></li>
+		        <li><a href="/injury.jsp">Сегодня</a></li>
 		        <li class="active"><a href="#">Вчера</a></li>
 		        <li><a href="/injury2.jsp">Позавчера</a></li>
 		        <li><a href="/injury3.jsp">3 дня назад</a></li>
