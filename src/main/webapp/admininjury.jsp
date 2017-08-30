@@ -62,9 +62,7 @@ File f=new File("matchiinjury.xml");
         String strUrl="https://www.sofascore.com/football//2017-"+month+"-"+date+"/json?_="+new Date().getTime()/10000;
         URL url = new URL(strUrl);
     	
-        
-        //Parser.testParse(url);
-        //serialization(mapa,f);
+        serialization(Parser.parse(url),f);
         
     	//логирование последнего обновления данных
     	FileWriter fOut=null;
@@ -80,6 +78,5 @@ File f=new File("matchiinjury.xml");
 %>
 
 <%
-out.println(Parser.testParse(new URL("https://www.sofascore.com/football//2017-08-29/json?_=150399075")));
 adminPart();
 %>
