@@ -57,7 +57,7 @@ public class Parser {
                  
 		         for(i = 0; i < var65.sportItem.tournaments.length; ++i) {
 		        	 
-		            String var66 = var65.sportItem.tournaments[i].category.name + " " + var65.sportItem.tournaments[i].tournament.uniqueName;
+		            String var66 = var65.sportItem.tournaments[i].category.name + " " + var65.sportItem.tournaments[i].tournament.name;
 		            ArrayList var67 = new ArrayList();
                     
 		            for(int var68 = 0; var68 < var65.sportItem.tournaments[i].events.length; ++var68) {
