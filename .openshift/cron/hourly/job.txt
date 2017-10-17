@@ -1,7 +1,0 @@
-#!/bin/bash
-
-if [ `date +%H` == "18" ]
-then
-    cd
-    cp ./wildfly/matchiinjury.xml ./wildfly/`date +%m%d`.inj
-fi

@@ -1,9 +1,0 @@
-#!/bin/bash
-if [ ! -f $OPENSHIFT_DATA_DIR/last_run ]; then
-  touch $OPENSHIFT_DATA_DIR/last_run
-fi
-if [ $(find $OPENSHIFT_DATA_DIR/last_run -mmin +15) ] && [ `date +%H` -lt "18" ] && [ `date +%H` -gt "8" ]; then
-  rm -f $OPENSHIFT_DATA_DIR/last_run
-  touch $OPENSHIFT_DATA_DIR/last_run
-  wget http://injury-betfront.rhcloud.com/admininjury.jsp
-fi
