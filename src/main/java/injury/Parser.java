@@ -30,6 +30,7 @@ public class Parser {
 	
 	   public static Map<String,List<Game>> parse(URL url) {
 		System.out.println((new Date().getTime() / 1000));
+                return new HashMap<String,List<Game>>();
 		                  		            	   
 	    }
 	   
